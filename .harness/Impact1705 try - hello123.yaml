@@ -1,0 +1,22 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: impact1705try_hello123
+name: Impact1705 try - hello123
+owner: user:account/shibam.dhar
+orgIdentifier: default
+projectIdentifier: sd2
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group/sample-group
+metadata:
+  description: This entity ids for Impact1705
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/Sdhar-ORG-Harness/repo99
+  links:
+  - title: Website
+    url: http://my-sample-website.com
+  tags:
+  - my-sample
